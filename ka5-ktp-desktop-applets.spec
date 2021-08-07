@@ -31,6 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Telepathy Desktop applets.
 
+%description -l pl.UTF-8
+Aplety Telepathy Desktop.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
